@@ -36,6 +36,7 @@
         <label for="nomecategoria">Nome da Categoria</label>
         <input type="text" class="form-control" id="nomecategoria" name="nomecategoria" value="{{ $categoria->nomecategoria ?? '' }}" required>
     </div>
+    <br/>
 
     <button type="submit" class="btn btn-primary">
         {{ isset($categoria) ? 'Atualizar Categoria' : 'Adicionar Categoria' }}
